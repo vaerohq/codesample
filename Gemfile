@@ -75,3 +75,5 @@ end
 
 # 2024 0504 elh updates
 gem "rspec"
+
+gem 'devise', '~> 4.9'
