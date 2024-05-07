@@ -1,0 +1,8 @@
+customer_name	user_email	patent_id	patent_subject	granted
+Customer 0	earl@customer0.com	US20220129586A1	Methods and systems for processing agency-initiated privacy requests	true
+Customer 1	bryant@customer1.com	US11670103B2	Multi-segment text search using machine learning model for text similarity	true
+Customer 0	earl@customer0.com	US11841979B2	Data discovery and generation of live data map for information privacy	true
+Customer 0	earl@customer0.com	US11829507B2	Methods and systems for privacy protection verification	false
+Customer 0	luca@customer0.com	EP4141721A1	System and method for secure collection and display of sensitive data	true
+Customer 1	bryant@customer1.com	US8959336B1	Securing locally stored web-based database data	false
+IBM	christopher@ibm.com	US10891400B2	Secure data transmission utilizing distributed storage	false
