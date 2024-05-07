@@ -11,6 +11,44 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class='vh-100 min-vh-100 h-100 d-flex flex-column'>
+
+      <%# nav bar %>
+      <div class='ps-1 pe-1 border-bottom'>
+        <nav class='navbar navbar-expand-lg navbar-light' style='background-color:rgb(255, 255, 255)'>
+
+          <a class='navbar-brand' href='#'>
+            <%= image_tag 'icons/vaero.iconblue.svg', style: 'width: 1.5em;' %>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class='collapse navbar-collapse' id='navbarSupportedContent'>
+            <ul class='navbar-nav w-100'>
+              <% if user_signed_in? %>
+                <li>
+                  <%= link_to 'My Home', home_path, class: 'nav-link' %>
+                </li>
+              <% end %>
+
+              <li class='nav-item ms-auto'>
+                <% if user_signed_in? %>
+                  <%= link_to 'Log Out', destroy_user_session_path, data: {'turbo-method' => :delete, controller: 'session', action: 'click->session#signOut'}, class:'nav-link' %>
+                <% else %>
+                  <%= link_to 'Login', new_user_session_path, class:'nav-link' %>
+                <% end %>
+              </li>
+          </div>
+
+        </nav>
+      </div>
+
+      <div class='flex-grow-1 d-flex overflow-x-auto overflow-y-hidden' id='body'>
+        <%= yield %>
+      </div>
+    </div>
+
   </body>
 </html>

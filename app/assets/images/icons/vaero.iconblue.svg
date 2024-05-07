@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="600 600 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-4724,0)">
+        <g id="Icon-Blue" serif:id="Icon Blue" transform="matrix(1,0,0,1,4724.8,0)">
+            <rect x="0" y="0" width="2000" height="2000" style="fill:none;"/>
+            <clipPath id="_clip1">
+                <rect x="0" y="0" width="2000" height="2000"/>
+            </clipPath>
+            <g clip-path="url(#_clip1)">
+                <g transform="matrix(1.05478,0,0,1.06458,-76.5058,-129.169)">
+                    <rect x="72.533" y="121.333" width="1896.14" height="1878.67" style="fill:none;"/>
+                </g>
+                <g transform="matrix(3.90644,0,-12.534,21.6969,3760.63,-6849.74)">
+                    <path d="M296.044,345.367L366.791,345.367L412.509,352.491L412.509,356.166L366.8,349.043L343.227,349.044L436.092,363.516L436.092,345.367L506.839,345.367L506.839,378.216L296.044,345.367ZM483.257,370.866L483.257,349.043L459.674,349.046L459.674,367.191L483.257,370.866Z" style="fill:rgb(43,79,243);"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

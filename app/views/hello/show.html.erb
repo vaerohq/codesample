@@ -1,3 +1,24 @@
-Welcome to Vaero's code challenge.
+<div class='d-flex flex-column p-1'>
+  <div class='pb-1'>
+    <p>Welcome to Vaero's code challenge.</p>
+  </div>
+
+  <div class='pb-1'>
+    <p>Links</p>
+    <ul>
+      <li><a href="<%= new_user_registration_path %>">Sign Up</a></li>
+      <li><a href="<%= user_session_path %>">Sign In</a></li>
+  </div>
+
+  <div class='flex-grow-1'>
+    You may create users via
+
+    <pre>
+    bin/rails c
+    u = User.create!({email: 'a@b.com', password: 'password'})
+    </pre>
+  </div>
+
+</div>
 
 
