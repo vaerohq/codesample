@@ -74,9 +74,16 @@ end
 
 
 # 2024 0504 elh updates
-gem "rspec"
 gem 'devise', '~> 4.9'
 
 # 2024 0504 add boostrap
 gem 'bootstrap'
 gem 'sassc-rails'
+
+
+group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails', '~> 6.1.0'
+  gem 'factory_bot_rails'
+end
+
