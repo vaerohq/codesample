@@ -66,6 +66,23 @@ Format: `customer name <tab> user email <tab> patent name <tab> patent title <ta
 4. Allow a user to edit his/her patent subjects.
 
 
+#### When you are done:
+
+1. Create a private repo with your github account
+
+2. Modify the instructions on the new repo page under "... or push an existing repository" to instead add a new remote, ala
+
+```bash
+git remote add origin2 git@github.com:earlh/test2.git   # turn origin into origin2 (or whatever you prefer), and note that the git url will be different for you
+git branch -M main
+git push -u origin2 main
+```
+
+3. Reload the repo page (mine was called earlh/test2) to verify it worked
+
+4. Add user `earlh` (NB: email is `github@earlh.com`) to the repo (Settings -> Collaborators -> Add People and add earlh)
+
+
 
 
 ## Test Suite
@@ -76,6 +93,4 @@ run via
 bundle exec rspec
 ```
 
-
-## Outcomes
 
